@@ -1,0 +1,29 @@
+[0m16:10:23.613361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10218ddc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049be330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049bdf10>]}
+
+
+============================== 16:10:23.616312 | 46a8ab84-06a2-4c7d-9fff-81f0f4819a5a ==============================
+[0m16:10:23.616312 [info ] [MainThread]: Running with dbt=1.8.1
+[0m16:10:23.616742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/choims/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init jaffle_shop', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:10:23.624605 [debug] [MainThread]: Starter project path: /Users/choims/dev/dbt/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m16:10:23.628347 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:10:23.628630 [info ] [MainThread]: Setting up your profile.
+[0m16:12:41.901544 [info ] [MainThread]: Profile jaffle_shop written to /Users/choims/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:12:41.906321 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 138.31827, "process_user_time": 3.33004, "process_kernel_time": 0.521967, "process_mem_max_rss": "192397312", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:12:41.907296 [debug] [MainThread]: Command `dbt init` succeeded at 16:12:41.907165 after 138.32 seconds
+[0m16:12:41.907802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10619ba10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120065310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c8bd0d0>]}
+[0m16:12:41.908308 [debug] [MainThread]: Flushing usage events
